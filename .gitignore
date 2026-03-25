@@ -1,20 +1,29 @@
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
 *.egg-info/
 dist/
 build/
-*.egg
 .eggs/
-*.so
-.venv/
 venv/
-env/
 .env
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-*.log
-*.json
-!tests/fixtures/*.json
+
+# Node
+node_modules/
+.next/
+out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Misc
+*.log
+.coverage
+htmlcov/
