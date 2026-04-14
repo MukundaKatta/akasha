@@ -1,56 +1,55 @@
-# 🔱 Akasha — Context Database
+# akasha — Asteroid Detection. Near-Earth object detection and trajectory prediction from telescope data
 
-> **Hindu Mythology**: Ether/Space | Context database for AI agents — unified memory and skills management
+Asteroid Detection. Near-Earth object detection and trajectory prediction from telescope data. akasha gives you a focused, inspectable implementation of that idea.
 
-[![GitHub Pages](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-blue?style=for-the-badge)](https://MukundaKatta.github.io/akasha/)
-[![GitHub](https://img.shields.io/github/license/MukundaKatta/akasha?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/MukundaKatta/akasha?style=flat-square)](https://github.com/MukundaKatta/akasha/stargazers)
+## Why akasha
 
-## 🚀 Overview
+akasha exists to make this workflow practical. Asteroid detection. near-earth object detection and trajectory prediction from telescope data. It favours a small, inspectable surface over sprawling configuration.
 
-Context database for AI agents — unified memory and skills management
+## Features
 
-**Tech Stack:** Rust, Python
+- CLI command `akasha`
+- Included test suite
+- Worked examples included
 
-## 📦 Quick Start
+## Tech Stack
+
+- **Runtime:** Python
+- **Frameworks:** Click
+- **AI/ML:** NumPy
+- **Tooling:** pytest, Pydantic, Rich
+
+## How It Works
+
+The codebase is organised into `examples/`, `src/`, `tests/`. The primary entry points are `src/akasha/cli.py`, `src/akasha/__init__.py`. `src/akasha/cli.py` exposes functions like `cli`, `simulate`.
+
+## Getting Started
 
 ```bash
-git clone https://github.com/MukundaKatta/akasha.git
-cd akasha
-# Follow setup instructions below
+pip install -e .
+akasha --help
 ```
 
-## 🏗️ Project Structure
+## Usage
+
+```bash
+akasha --help
+```
+
+## Project Structure
 
 ```
 akasha/
-├── README.md
-├── LICENSE
+├── .env.example
 ├── CLAUDE.md
-├── .gitignore
-├── src/
-│   ├── main.py
-│   ├── config.py
-│   └── utils.py
-├── tests/
-│   └── test_main.py
-├── docs/
-│   └── architecture.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
+├── config.example.yaml
 ├── examples/
-│   └── basic_usage.py
-└── .github/
-    └── workflows/
-        └── static.yml
+├── index.html
+├── pyproject.toml
+├── requirements.txt
+├── src/
+├── tests/
 ```
-
-## 🌐 Live Demo
-
-Visit the landing page: **https://MukundaKatta.github.io/akasha/**
-
-## 📄 License
-
-MIT License — © 2026 Officethree Technologies
-
-## 🔱 Part of the Mythological Portfolio
-
-This is project **#akasha** in the [100-project Mythological Portfolio](https://github.com/MukundaKatta) by Officethree Technologies.
