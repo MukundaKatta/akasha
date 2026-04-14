@@ -2,7 +2,7 @@
 
 **Live:** <https://mukundakatta.github.io/akasha/>
 
-Asteroid Detection. Near-Earth object detection and trajectory prediction from telescope data. akasha gives you a focused, inspectable implementation of that idea.
+Asteroid Detection. Near-Earth object detection and trajectory prediction from telescope data.
 
 ## Why akasha
 
